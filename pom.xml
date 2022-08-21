@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>info.phazor</groupId>
-    <artifactId>async-servlet2</artifactId>
+    <artifactId>ejb</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
-    <name>async-servlet2-1.0</name>
+    <name>ejb-1.0</name>
     
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -13,17 +13,10 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <!--<tomee.version>8</tomee.version>-->
-        <!--<jakartaee>8.0</jakartaee>-->
+        <jakartaee>8.0.0</jakartaee>
     </properties>
     
     <dependencies>
-        <!--<dependency>
-            <groupId>org.apache.tomee</groupId>
-            <artifactId>jakartaee-api</artifactId>
-            <version>9.1-M2</version>
-            <scope>provided</scope>
-        </dependency>-->
         <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-api</artifactId>
@@ -33,7 +26,7 @@
     </dependencies>
     
      <build>
-        <finalName>async-servlet2</finalName>
+        <finalName>ejb</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
