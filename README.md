@@ -6,6 +6,6 @@ TomEE (Tomcat + JavaEE で TomEE というようです)のサンプルコード�
 ## OverView  
   
 シンプルに ejb を使ったサーブレットです。  
-![image](p-horlix.net/umamusume-phazor/wp-content/uploads/2022/08/tomee-tomcat-ejb-1024x594.png)
+![image](https://p-horlix.net/umamusume-phazor/wp-content/uploads/2022/08/tomee-tomcat-ejb-1024x594.png)
 
   
